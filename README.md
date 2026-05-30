@@ -1,8 +1,8 @@
-# SampleModels — text-to-3D meshes for animeshy demos
+# SampleModels — text-to-3D meshes for antianything demos
 
-Twenty textured `.glb` source meshes used as the corpus for the **[animeshy](https://github.com/assaframan/animeshy)** rigging + LLM-keyframing pipeline (Liveupmesh paper).
+Twenty textured `.glb` source meshes used as the corpus for **antianything**, an open pipeline that auto-rigs arbitrary 3D characters with RigAnything and animates them via an LLM keyframing agent.
 
-Each mesh was generated with **Meshy** text-to-3D under the *rigging-pose discipline* described in the paper (limbs spread, no contact with the body) so a downstream auto-rigger (RigAnything, Gemini-designed Blender pipeline) can find every appendage. None of these have skeletons or skin weights — they are the *input* to the rigging stage.
+Each mesh was generated with **Meshy** text-to-3D under the *rigging-pose discipline* (limbs spread, no contact with the body) so a downstream auto-rigger can find every appendage. None of these have skeletons or skin weights — they are the *input* to the rigging stage.
 
 ## Models
 
